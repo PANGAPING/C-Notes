@@ -1,0 +1,82 @@
+
+Introducation of .net:
+	1. .Net FrameWork is an essential part of .net Platform,it supplys a steady run environment to make sure that the applications that we develop work.
+
+	2. C# a programming language which can develop the application base on .net platform.
+
+What we can do using .net:
+ 1. windows applciation develop
+ 2. Internet application ASP .NET
+ 3.Phone application
+ 4.Unity game, virtual reality.
+
+
+.NET contacting modes:
+	C/S Client/Server
+	B/S Brower/Server
+
+
+Asp.Net:
+	A free web framework for building great Web sites and Web application using
+	HTML,CSS and Javascript.
+
+
+
+Asp.Net MVC route config:
+	Default: Controller classname/Action name
+	In RouteConfig file:
+		public static void RegisterRoutes(RouteCollection routes)
+    	    {
+    	        routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+	
+    	        routes.MapRoute(
+    	            name: "Default",
+    	            url: "{controller}/{action}/{id}",
+    	            defaults: new { controller = "Home", action = "Index", id = 	UrlParameter.Optional }
+    	        );
+    	    }
+
+
+In Visual Studio: Ctrl + Shift + B //Compile The Code 
+
+
+View and Razor engine(enable us to use c# stynax):
+
+<!-- Multi statement block -->
+@{
+	
+	ViewBag.title = "Index";
+
+	/*Layout(The template we using) */
+
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Single statement block-->
+@{var total = 7;}
+
+<!-- Inline -->
+
+
+<p> The value of totoal: @total </p>
+
+
+<!-- Annotation way /* */ and @* *@ -->
+
+
+
+Contaction between controller and view
+
+	in controller:
+		ViewBag.name = "name";
+		ViewBag.Count = 1;
+
+	in view 
+	@{"Hello" + ViewBag.name}
+
+
+Connect and create database:
+	In Web.config add
+	    <add name="MovieDBContext" connectionString="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Movices.mdf;Integrated Security=True"
+ providerName="System.Data.SqlClient" />
+  Then add controller with entity framwork. 
