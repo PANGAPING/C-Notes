@@ -1,0 +1,9 @@
+C:\Users\邓维浩\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ReflectionExample\bin\Debug\ReflectionExample.exe.config
+C:\Users\邓维浩\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ReflectionExample\bin\Debug\ReflectionExample.exe
+C:\Users\邓维浩\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ReflectionExample\bin\Debug\ReflectionExample.pdb
+C:\Users\邓维浩\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ReflectionExample\obj\Debug\ReflectionExample.csprojResolveAssemblyReference.cache
+C:\Users\邓维浩\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ReflectionExample\obj\Debug\ReflectionExample.Form1.resources
+C:\Users\邓维浩\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ReflectionExample\obj\Debug\ReflectionExample.Properties.Resources.resources
+C:\Users\邓维浩\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ReflectionExample\obj\Debug\ReflectionExample.csproj.GenerateResource.Cache
+C:\Users\邓维浩\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ReflectionExample\obj\Debug\ReflectionExample.exe
+C:\Users\邓维浩\Documents\Visual Studio 2015\Projects\ConsoleApplication1\ReflectionExample\obj\Debug\ReflectionExample.pdb
