@@ -1,2 +1,2 @@
 # C-Notes
-The notes repository about C#.
+The notes repository of C#.
