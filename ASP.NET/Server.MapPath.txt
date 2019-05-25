@@ -1,0 +1,14 @@
+Copy and paste the following code in PageInElectronicsFolder.aspx.cs
+Response.Write(". returns " + Server.MapPath(".") + "<br/>");
+Response.Write(".. returns " + Server.MapPath("..") + "<br/>");
+Response.Write("~ returns " + Server.MapPath("~") + "<br/>");
+
+Running this page would produce the following output.
+. returns C:\SampleWeb\SampleWeb\Categories\Electronics
+.. returns C:\SampleWeb\SampleWeb\Categories
+~ returns C:\SampleWeb\SampleWeb
+
+From the output, it should be clear that
+Server.MapPath(".") returns the current physical directory of the page that you are running
+Server.MapPath("..") returns the parent pysical directory of the page that you are running
+Server.MapPath("~") returns the physical path of the root directory of the application 
